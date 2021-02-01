@@ -67,6 +67,24 @@ No emotion toward brand or product       0.99      1.00      1.00      4304
 
 # TF-IDF-
 
+Negative:
+- Precision
+- Recall
+- F1-Score
+- Accuracy
+
+Positive:
+- Precision
+- Recall
+- F1-Score
+- Accuracy
+
+Neutral:
+- Precision
+- Recall
+- F1-Score
+- Accuracy
+
 Evaluations for test:
  [[ 19  85   9]
  [  6 965 113]
