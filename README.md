@@ -14,6 +14,6 @@ The following are bar graphs containing the most requent words used in each twee
 ![bar-graph](/figures/word count bar graphs.png)
 
 The following are word clouds of the most frequent words used in each tweet sentiment category:
-![word-cloud](/figures/positive_wordcloud.png)
-![word-cloud](/figures/negative_wordcloud.png)
-![word-cloud](/figures/neutral_wordcloud.png)
+![word-cloud](/Figures/positive_wordcloud.png)
+![word-cloud](/Figures/negative_wordcloud.png)
+![word-cloud](/Figures/neutral_wordcloud.png)
