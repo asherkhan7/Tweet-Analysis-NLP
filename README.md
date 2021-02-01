@@ -32,85 +32,39 @@ After we fit transformed our data, we predicted and classified using Random Fore
 Following are the Random Forest results from the two processing methods:
 
 # CountVectorization-
-
-Evaluations for test:
-[[25 78   10]
-[  8 974 102]
-[  3 349 239]
-                                    precision    recall  f1-score   support
-
-                  Negative emotion       0.69      0.22      0.34       113
-No emotion toward brand or product       0.70      0.90      0.78      1084
-                  Positive emotion       0.68      0.40      0.51       591
-
-                          accuracy                           0.69      1788
-                         macro avg       0.69      0.51      0.54      1788
-                      weighted avg       0.69      0.69      0.66      1788
-
-
-
-Evaluations for train:
- [[ 456    1    0]
- [   2 4299    3]
- [   0   33 2354]]
-                                    precision    recall  f1-score   support
-
-                  Negative emotion       1.00      1.00      1.00       457
-No emotion toward brand or product       0.99      1.00      1.00      4304
-                  Positive emotion       1.00      0.99      0.99      2387
-
-                          accuracy                           0.99      7148
-                         macro avg       1.00      0.99      0.99      7148
-                      weighted avg       0.99      0.99      0.99      7148
-
-
-
-# TF-IDF-
+Test Accuracy: 0.69
 
 Negative:
-- Precision
-- Recall
-- F1-Score
-- Accuracy
+- Precision: 0.69
+- Recall: 0.22
+- F1-Score: 0.34
 
 Positive:
-- Precision
-- Recall
-- F1-Score
-- Accuracy
+- Precision: 0.68
+- Recall: 0.40
+- F1-Score: 0.51
 
 Neutral:
-- Precision
-- Recall
-- F1-Score
-- Accuracy
+- Precision: 0.70
+- Recall: 0.90
+- F1-Score: 0.78
 
-Evaluations for test:
- [[ 19  85   9]
- [  6 965 113]
- [  4 341 246]]
-                                    precision    recall  f1-score   support
+# TF-IDF-
+Test Accuracy: 0.69
 
-                  Negative emotion       0.66      0.17      0.27       113
-No emotion toward brand or product       0.69      0.89      0.78      1084
-                  Positive emotion       0.67      0.42      0.51       591
+Negative:
+- Precision: 0.66
+- Recall: 0.17
+- F1-Score: 0.27
 
-                          accuracy                           0.69      1788
-                         macro avg       0.67      0.49      0.52      1788
-                      weighted avg       0.68      0.69      0.66      1788
+Positive:
+- Precision: 0.67
+- Recall: 0.42
+- F1-Score: 0.51
 
+Neutral:
+- Precision: 0.69
+- Recall: 0.89
+- F1-Score: 0.78
 
-
-Evaluations for train:
- [[ 456    1    0]
- [   2 4298    4]
- [   0   32 2355]]
-                                    precision    recall  f1-score   support
-
-                  Negative emotion       1.00      1.00      1.00       457
-No emotion toward brand or product       0.99      1.00      1.00      4304
-                  Positive emotion       1.00      0.99      0.99      2387
-
-                          accuracy                           0.99      7148
-                         macro avg       1.00      0.99      0.99      7148
-                      weighted avg       0.99      0.99      0.99      7148
+Both processing methods results were quite similar and resulted in the same test accuracy. However CountVectorize overall did better in classification than TF-IDF. 
