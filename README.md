@@ -31,7 +31,7 @@ After we fit transformed our data, we predicted and classified using Random Fore
 
 Following are the Random Forest results from the two processing methods:
 
-# CountVectorization-
+### CountVectorization-
 Test Accuracy: 0.69
 
 Negative:
@@ -49,7 +49,7 @@ Neutral:
 - Recall: 0.90
 - F1-Score: 0.78
 
-# TF-IDF-
+### TF-IDF-
 Test Accuracy: 0.69
 
 Negative:
