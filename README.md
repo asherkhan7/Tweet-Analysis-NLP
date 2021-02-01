@@ -34,9 +34,9 @@ Following are the Random Forest results from the two processing methods:
 # CountVectorization-
 
 Evaluations for test:
- [[ 25  78  10]
- [  8 974 102]
- [  3 349 239]]
+[[25 78   10]
+[  8 974 102]
+[  3 349 239]
                                     precision    recall  f1-score   support
 
                   Negative emotion       0.69      0.22      0.34       113
