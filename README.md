@@ -66,5 +66,3 @@ Neutral:
 - Precision: 0.69
 - Recall: 0.89
 - F1-Score: 0.78
-
-Both processing methods results were quite similar and resulted in the same test accuracy. However CountVectorize overall did better in classification than TF-IDF. 
